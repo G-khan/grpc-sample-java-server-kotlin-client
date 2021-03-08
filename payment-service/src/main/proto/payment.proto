@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "com.gokhana.payment";
+option java_outer_classname = "PaymentGRPCApp";
+option objc_class_prefix = "HLW";
+
+package banking;
+
+service BankingService{
+  rpc pay(paymentDTO) returns (bankDTO){}
+}
+
+message paymentDTO{
+  int32 id = 1;
+  string paymentType = 2;
+  int64 bankId = 3;
+  int64 transactionId = 4;
+  string payDetail = 5;
+}
+
+message bankDTO{
+  int32 id = 1;
+  bool isSuccess = 2;
+  int64 transactionId = 3;
+  int64 referenceId = 4;
+  string message = 5;
+}
