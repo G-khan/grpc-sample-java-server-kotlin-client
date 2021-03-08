@@ -1,0 +1,53 @@
+plugins {
+    id 'java'
+    id 'com.google.protobuf' version '0.8.13'
+    id 'idea'
+}
+
+group 'com.gokhana'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+dependencies {
+    implementation 'io.grpc:grpc-protobuf:1.36.0'
+    implementation 'io.grpc:grpc-stub:1.36.0'
+    implementation 'io.grpc:grpc-netty:1.36.0'
+    compileOnly 'org.apache.tomcat:annotations-api:6.0.53'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+protobuf{
+    protoc {artifact = "com.google.protobuf:protoc:3.13.0"}
+    plugins{
+        grpc {artifact = "io.grpc:protoc-gen-grpc-java:1.31.1"}
+    }
+    generateProtoTasks{
+        all()*.plugins {grpc {}}
+    }
+    // default proto plugin generate stub in build folder
+    // change the stub generate folder
+    //generatedFilesBaseDir = "$projectDir/src/generated"
+}
+
+sourceSets{
+    main{
+        proto{
+            srcDirs 'src/main/proto'
+        }
+        java{
+            srcDirs 'build/generated/source/proto/main/grpc'
+            srcDirs 'build/generated/source/proto/main/java'
+
+        }
+    }
+}

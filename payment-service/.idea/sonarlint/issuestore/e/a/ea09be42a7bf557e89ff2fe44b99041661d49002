@@ -1,0 +1,91 @@
+
+C
+java:S1199n"-Extract this nested code block into a method.(­Ó–Ô
+C
+java:S1199s"-Extract this nested code block into a method.(ò‘
+H
+java:S1199y"-Extract this nested code block into a method.(”¤óˆüÿÿÿÿ
+H
+java:S1199~"-Extract this nested code block into a method.(ÙšÖ­ùÿÿÿÿ
+D
+java:S1199ƒ"-Extract this nested code block into a method.(¾ø‚©
+I
+java:S1199‰"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1199‰"-Extract this nested code block into a method.(­Ó–Ô
+D
+java:S1199"-Extract this nested code block into a method.(İ…î½
+I
+java:S1199“"-Extract this nested code block into a method.(”¤óˆüÿÿÿÿ
+I
+java:S1199˜"-Extract this nested code block into a method.(ÙšÖ­ùÿÿÿÿ
+D
+java:S1199"-Extract this nested code block into a method.(¾ø‚©
+I
+java:S1199£"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+f	java:S114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”îŒœ
+g	java:S114³"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÎÙ’
+g	java:S101B"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Û¬ßäùÿÿÿÿ
+h	java:S101Ş"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ù®¡ßşÿÿÿÿ
+u
+java:S1488Ú"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488Û
+"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ°‡ıÿÿÿÿ
+J
+java:S1172	"/Remove this unused method parameter "registry".(•óÊõÿÿÿÿÿ
+
+java:S4144­"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 916.(ã¤–êøÿÿÿÿ
+s
+java:S3077µ"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(×ø€ğşÿÿÿÿ
+m
+java:S3077ñ"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(éôãM
+d	java:S116ª"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+r	java:S116µ"WRename this field "paymentType_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ø€ğşÿÿÿÿ
+h	java:S116Û"RRename this field "bankId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´Çİ
+o	java:S116æ"YRename this field "transactionId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹àªÈ
+j	java:S116ñ"URename this field "payDetail_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éôãM
+J
+java:S1948µ".Make "paymentType_" transient or serializable.(×ø€ğşÿÿÿÿ
+B
+java:S1948ñ",Make "payDetail_" transient or serializable.(éôãM
+]
+java:S1126ç"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+d	java:S116Š"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+m	java:S116©"WRename this field "paymentType_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡…´¯
+h	java:S116õ"RRename this field "bankId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´Çİ
+o	java:S116”"YRename this field "transactionId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹àªÈ
+p	java:S116³"URename this field "payDetail_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯±Ùòüÿÿÿÿ
+?	java:S108ı")Either remove or fill this block of code.(º„ç½
+o
+java:S2975±"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+{
+java:S4144€"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 1767.(øİ€¨
+s
+java:S3077ğ"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ÇŒÂŠúÿÿÿÿ
+d	java:S116Ä"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+p	java:S116Ï"URename this field "isSuccess_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚïÍúÿÿÿÿ
+o	java:S116Ú"YRename this field "transactionId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹àªÈ
+m	java:S116å"WRename this field "referenceId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‘åİ
+n	java:S116ğ"SRename this field "message_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇŒÂŠúÿÿÿÿ
+F
+java:S1948ğ"*Make "message_" transient or serializable.(ÇŒÂŠúÿÿÿÿ
+E
+java:S1125¦	")Remove the literal "false" boolean value.(ÈºŠâùÿÿÿÿ
+E
+java:S1125¿	")Remove the literal "false" boolean value.(ÈºŠâùÿÿÿÿ
+]
+java:S1126ç	"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+d	java:S116Š"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+p	java:S116©"URename this field "isSuccess_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚïÍúÿÿÿÿ
+o	java:S116È"YRename this field "transactionId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹àªÈ
+m	java:S116ç"WRename this field "referenceId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‘åİ
+n	java:S116†"SRename this field "message_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ«Ï‚úÿÿÿÿ
+?	java:S108ş
+")Either remove or fill this block of code.(º„ç½
+o
+java:S2975²"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+@
+java:S1125à")Remove the literal "false" boolean value.(Èé¾—
